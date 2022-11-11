@@ -21,7 +21,7 @@ function App() {
 
   async function getLocationByIp(userInput = "") {
     const response = await fetch(
-      `https://geo.ipify.org/api/v2/country,city?apiKey=at_O5whRel4pZ9ZVbonl8lgQz6A9V4LrNNN&domain=${userInput}`
+      `https://geo.ipify.org/api/v2/country,city?apiKey=at_O5whRel4pZ9ZVbonl8lgQz6A9V4Lr&domain=${userInput}`
     );
     const data = await response.json();
 
