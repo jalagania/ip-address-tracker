@@ -1,0 +1,38 @@
+.map-box,
+.error-box,
+.leaflet-container {
+  width: 100%;
+  height: 39.5rem;
+  margin-top: -6.5rem;
+}
+
+.error-box {
+  background-color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-box p {
+  font-size: 3rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .map-box,
+  .error-box,
+  .leaflet-container {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 425px) {
+  .map-box,
+  .error-box {
+    margin-top: -17rem;
+  }
+
+  .error-box p {
+    font-size: 2.4rem;
+  }
+}
